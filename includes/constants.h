@@ -1,5 +1,5 @@
-#ifndef CONSTANTS_H
-#define CONSTANTS_H
+#ifndef CONSTANTS_H_
+#define CONSTANTS_H_
 #include <string>
 
 //default files to read and write data

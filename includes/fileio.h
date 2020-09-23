@@ -1,11 +1,10 @@
 #ifndef FILEIO_FUNC_H
 #define FILEIO_FUNC_H
 
+#include <string>
 #include "constants.h"
 
-using namespace std;
-
-	int loadData(const string filename, vector<process> &myProcesses);
-	int saveData(const string filename, vector<process> &myProcesses);
+	int loadData(const std::string filename, std::vector<process> &myProcesses);
+	int saveData(const std::string filename, std::vector<process> &myProcesses);
 
 #endif
