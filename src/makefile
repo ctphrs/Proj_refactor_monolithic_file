@@ -10,7 +10,8 @@ fileio.o: ../fileio/fileio.cpp ../includes/fileio.h ../includes/constants.h
 	g++ $(CFLAGS) -c ../fileio/fileio.cpp
 	
 #TODO 
-utils.o: 
+utils.o: ../utils/utils.cpp ../includes/utils.h ../includes/constants.h
+	g++ $(CFLAGS) -c ../utils/utils.cpp
 	
 #TODO
 proj_refactor_file.o: proj_refactor_file.cpp	

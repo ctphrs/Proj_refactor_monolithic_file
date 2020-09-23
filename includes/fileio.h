@@ -5,4 +5,4 @@
 	int loadData();
 	int saveData();
 
-#endif /* FILEIO_FUNC_H */
+#endif

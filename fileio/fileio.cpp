@@ -2,7 +2,8 @@
 
 #include <iostream>
 
-#include "fileio.h"
+#include "../includes/fileio.h"
+#include "../includes/constants.h"
 
 //attempt to open file 'filename' and read in all data
 //returns SUCCESS if all goes well or COULD_NOT_OPEN_FILE
