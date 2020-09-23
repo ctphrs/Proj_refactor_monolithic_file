@@ -4,7 +4,7 @@ CC = g++
 default: all
 #TODO link (-o) all object files into the executable myexe
 all: fileio.o utils.o proj_refactor_file.o
-	$(CC) $(CFLAGS) -o all fileio.o utils.o proj_refactor_file.o
+	$(CC) $(CFLAGS) -o myexe fileio.o utils.o proj_refactor_file.o
 	
 #rebuild object file if fileio.cpp, or fileio.h or constants.h changes
 #compile the .cpp file to an object file (-c)
@@ -21,4 +21,4 @@ proj_refactor_file.o: proj_refactor_file.cpp ../includes/utils.h ../includes/con
 
 #TODO type 'make clean' to remove myexe and all .o files	
 clean:
-	$(RM) all *.o *~
+	$(RM) myexe *.o *~
