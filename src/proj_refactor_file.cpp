@@ -14,8 +14,6 @@ using namespace std;
 #include "../includes/constants.h"
 #include "../includes/utils.h"
 
-//holds all the processes read in
-vector<process> myProcesses;
 
 
 int main() {
