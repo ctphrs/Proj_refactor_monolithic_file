@@ -1,8 +1,10 @@
 
-
+#include <vector>
 
 #include "../includes/fileio.h"
 #include "../includes/constants.h"
+
+using namespace std;
 
 //holds all the processes read in
 vector<process> myProcesses;
