@@ -6,9 +6,6 @@
 
 using namespace std;
 
-//holds all the processes read in
-vector<process> myProcesses;
-
 
 //returns the number of entries in the vector
 int getSize(vector<process> &myProcesses){
